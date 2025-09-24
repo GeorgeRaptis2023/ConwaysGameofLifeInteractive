@@ -1,3 +1,3 @@
-This is a simulation of the game of life with a visualization of the information my algorithm stores written in python with pygame. Cells change color by clicking and the game advances with space.
+This is a simulation of the Game of life with a visualization of the information my algorithm stores written in python with pygame. Cells change color by clicking and the game advances with space.
 It stores the number of neighbors in an array and only alters it when changes happen,it also keeps a set of cells near last turn's changes for applying the game's conditions instead of considering every cell.
 Every algorithm for optimally calculating the Game of Life depends on assumptions and tradeoffs, i 'trade' memory for speed by storing information that i could recalculate and i assume that the cells that change m are significantly less than the total cells so O(m)) is better than the usual O(n) algorithm.
